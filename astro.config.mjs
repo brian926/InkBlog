@@ -6,6 +6,7 @@ import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import { defineConfig } from "astro/config";
 import vercel from "@astrojs/vercel/serverless";
+import netlify from "@astrojs/netlify";
 import markdoc from "@astrojs/markdoc";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -32,12 +33,12 @@ export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
     ]
   },
   integrations: [
-    mdx(), 
+    mdx(),
     markdoc(),
-    svelte(), 
+    svelte(),
     tailwind({
       applyBaseStyles: false,
-    }), 
+    }),
     sitemap(),
     decapCmsOauth()
   ],
@@ -52,5 +53,5 @@ export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
       allowNodeBuiltins: true
     }
   },
-  adapter: vercel()
+  adapter: netlify()
 });
