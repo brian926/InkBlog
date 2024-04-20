@@ -28,11 +28,11 @@ export const SITE = {
 	name: "Ink",
 	title: "Astro - Ink",
 	description: "Crisp, minimal, personal blog theme for Astro",
-	url: "https://astro-ink.vercel.app",
-	githubUrl: "https://github.com/one-aalam/astro-ink",
+	url: "https://bantunes.netlify.app",
+	githubUrl: "https://github.com/brian926/InkBlog",
 	listDrafts: true,
 	image:
-		"https://raw.githubusercontent.com/one-aalam/astro-ink/main/public/astro-banner.png",
+		"https://raw.githubusercontent.com/brian926/InkBlog/main/public/astro-banner.png",
 	// YT video channel Id (used in media.astro)
 	ytChannelId: "",
 	// Optional, user/author settings (example)

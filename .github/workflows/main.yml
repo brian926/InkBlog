@@ -1,13 +1,12 @@
-
 name: CI
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
   schedule:
     - cron: 30 */4 * * *
 
@@ -26,4 +25,4 @@ jobs:
         with:
           github_token: $\{{ secrets.GITHUB_TOKEN }}
           github_actor: one-aalam
-          github_repository: one-aalam/astro-ink
+          github_repository: brian926/InkBlog
