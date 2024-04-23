@@ -7,8 +7,16 @@
     let searchableDocs;
     let searchIndex;
 
+    interface Props {
+        slug: string;
+        title: string;
+        description: string;
+        category: string;
+        tags: Array<string>;
+    }
+
     let searchQuery = "";
-    let searchResults: string[] = [];
+    let searchResults: Props[] = [];
 
     onMount(async () => {
         const lunr = (await import("lunr")).default;
