@@ -8,7 +8,7 @@
     let searchIndex;
 
     let searchQuery = "";
-    let searchResults: any[];
+    let searchResults: string[] = [];
 
     onMount(async () => {
         const lunr = (await import("lunr")).default;

@@ -8,8 +8,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aftab Alam",
-  "license": "ISC",
-  "dependencies": {
-    "globby": "^14.0.1"
-  }
+  "license": "ISC"
 }
