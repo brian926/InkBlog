@@ -1,7 +1,7 @@
 import { z, defineCollection } from "astro:content";
 
 const blogCollection = defineCollection({
-	schema: z.object({
+	schema: ({ image }) => z.object({
 		title: z
 			.string()
 			.max(100, "The title length must be less than or equal to 100 chars"),
@@ -12,6 +12,7 @@ const blogCollection = defineCollection({
 		authorTwitter: z.string(),
 		date: z.date(),
 		image: z.string().optional(),
+		thumbnail: image().optional(),
 		category: z.string(),
 	}),
 });

@@ -45,6 +45,7 @@ export const SITE = {
 	// Author: Bio
 	authorBio:
 		"Crisp, minimal, personal blog theme for Astro. Crisp, minimal, personal blog theme for Astro. Crisp, minimal, personal blog theme for Astro",
+	cover: ""
 };
 
 // Ink - Theme configuration
