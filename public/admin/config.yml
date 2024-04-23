@@ -37,3 +37,4 @@ collections: # A list of collections the CMS should be able to edit
           widget: "string",
         }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image", media_folder: "/src/content/images" }
