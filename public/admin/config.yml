@@ -28,13 +28,14 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown", editor_components: ["image"] }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Category", name: "category", widget: "string" }
       - {
           label: "Author Twitter Handle",
           name: "authorTwitter",
           widget: "string",
+          default: ""
         }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Image", name: "image", widget: "image", media_folder: "/src/content/images" }
+      - { label: "Image", name: "image", widget: "image", media_folder: "/src/content/thumbnails" }
