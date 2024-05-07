@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=flat-square&color=5e17eb&labelColor=000000" alt="PRs welcome!" />
   <img alt="License" src="https://img.shields.io/github/license/one-aalam/astro-ink?style=flat-square&color=5e17eb&labelColor=000000">
   <a href="https://twitter.com/intent/follow?screen_name=aftabbuddy">
-    <img src="https://img.shields.io/twitter/follow/aftabbuddy?style=flat-square&color=5e17eb&labelColor=000000" alt="Follow @aftabbuddy" />
+    <img src="https://img.shields.io/twitter/follow/aftabbuddy?style=flat-square&color=5e17eb&labelColor=000000" alt="Follow @Brian_Antunes" />
   </a>
 </div>
 <br/>
@@ -58,7 +58,7 @@ _Just clone this template_, and start working from your clone. You have all the 
 - [jamesperkins.dev](https://www.jamesperkins.dev/) - Personal site of developer, YouTube instructor [James R Perkins](https://twitter.com/james_r_perkins)
 - [highlandcows.github.io](https://highlandcows.github.io/) [Nick Jacob](https://github.com/njacobs5074)'s personal blog
 
-> know a site built with Astro Ink? Let me know on [Twitter](https://twitter.com/aftabbuddy)
+> know a site built with Astro Ink? Let me know on [Twitter](https://twitter.com/Brian_Antunes)
 
 ## Wanna learn Astro while building Ink?
 

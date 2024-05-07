@@ -8,10 +8,12 @@ import Prose from "../components/Prose.astro";
 import { Content as AboutAstroInk } from "./_astro-ink.md";
 
 const title = "Home";
-const description =
-    "Astro-Ink is a crisp, minimal, personal blog theme for Astro";
+const description = "My personal blog for all things Technology related!";
 
 const posts = await getCollection("blog");
+posts.sort((a, b) => {
+    return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
+});
 ---
 
 <DefaultPageLayout content={{ title, description }} showPageHeader={false}>
